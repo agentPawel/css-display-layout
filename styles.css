@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+
+header h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons a{
+  padding: 10px 5px;
+  display: inline-block;
+  background-color: lightgrey;
+  border: 1px solid white;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.title {
+  background-color: lightgreen;
+  margin: 0 30px;
+  line-height: 3;
+}
+
+.title h3 {
+    padding: 10px 10px;
+}
+
+.photos li {
+  display: inline-block;
+  width: 320px;
+  background-color: yellow;
+}
+
+.photos a {
+  text-align: center;
+  font-color: blue;
+  text-decoration: underline;
+}
+
+img {
+  margin: 0 auto;
+  height: 400px;
+  width: 320px;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
